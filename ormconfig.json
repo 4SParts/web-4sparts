@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "192.168.15.240",
+  "port": 47591,
+  "username": "postgres",
+  "password": "*4sparts!#",
+  "database": "4sparts",
+  "entities": [
+    "./build/entities/*.js"
+  ]
+}
+
