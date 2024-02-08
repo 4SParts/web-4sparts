@@ -1,7 +1,7 @@
 import { getRepository } from "typeorm";
 import Produtos from "../entities/Produtos";
 
-class GetProdutosService {
+class GetProductService {
   public async execute() {
     const produtoRepository = await getRepository(Produtos).query(
       `
@@ -111,4 +111,4 @@ class GetProdutosService {
 	}
 }
 
-export default GetProdutosService;
+export default GetProductService;

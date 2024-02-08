@@ -1,10 +1,10 @@
 import { Request, Response } from 'express';
-import GetProdutoService from '../services/GetProdutoService';
+import GetProductService from '../services/GetProductService';
 
 
-class GetProdutosController {
+class GetProductsController {
   async handle(request: Request, response: Response) {
-    const service = new GetProdutoService();
+    const service = new GetProductService();
 
     const products = await service.execute();
 
@@ -13,4 +13,4 @@ class GetProdutosController {
   }
 }
 
-export default GetProdutosController;
+export default GetProductsController;

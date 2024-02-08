@@ -1,13 +1,13 @@
 import { Router } from "express";
 
-import produtosRouter from "./produtos.routes";
+import productRoutes from "./product.routes";
 import sessionsRouter from "./sessions.routes";
 
 
 const routes = Router();
 
 routes.use("/sessions", sessionsRouter);
-routes.use("/produtos", produtosRouter);
+routes.use("/produtos", productRoutes);
 
 
 
