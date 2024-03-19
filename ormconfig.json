@@ -1,6 +1,6 @@
 {
   "type": "postgres",
-  "host": "monacodi.ddns.net",
+  "host": "192.168.68.240",
   "port": 47591,
   "username": "postgres",
   "password": "*4sparts!#",
